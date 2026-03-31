@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/*.php": {} 
-  },
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1.php" },
     { "src": "/(.*)", "dest": "/$1.php" }
